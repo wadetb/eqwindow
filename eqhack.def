@@ -1,0 +1,8 @@
+LIBRARY EQHACK
+DESCRIPTION "EverQuest Hack Injected DLL."
+SECTIONS .HookSection READ WRITE SHARED
+EXPORTS
+	InstallHook
+	RemoveHook
+	HookProc
+
